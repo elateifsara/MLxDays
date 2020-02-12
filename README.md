@@ -3,7 +3,8 @@ This repo will contain all of the things that I will learn during my MLxDaysChal
 
 ## Day 1
 - I began the [tutorial](https://www.analyticsvidhya.com/blog/2020/01/build-your-first-machine-learning-pipeline-using-scikit-learn/?utm_source=feedburner) about Machine Learning pipeline using BigMart Sales dataset from Analytics Vidhya.
-- I stopped at Model Building.
+- I stopped at Model Building.  
+
 **ToC:** 
 1. Understanding Problem Statement
 2. Building a prototype model
