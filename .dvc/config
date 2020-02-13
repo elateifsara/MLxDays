@@ -1,0 +1,4 @@
+['remote "localremote"']
+url = ../titanic-remote
+[core]
+remote = localremote
