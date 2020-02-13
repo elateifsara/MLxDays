@@ -20,3 +20,8 @@ This repo will contain all of the things that I will learn during my MLxDaysChal
 ## Day 2
 - I finished the remaining parts of the Pipeline tutorial and submitted the results to get an idea about the model performance.
 - I learned from this lesson that it's best to do a thorough analysis and towards the end, after building and choosing your model, you can cleverly define your pipeline.
+
+## Day 3
+- I have been curious about data science workflows and development cycle so I checked this amazing article: 
+[Creating reproducible data science workflows with DVC](https://medium.com/y-data-stories/creating-reproducible-data-science-workflows-with-dvc-3bf058e9797b).
+You will find it detailed in Data Science Workflows, and it's about data version control. I only did the first part and will finish it the following day. 
