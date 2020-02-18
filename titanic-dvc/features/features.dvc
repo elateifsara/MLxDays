@@ -1,0 +1,21 @@
+md5: bc8392fb781252f3efa357fff8a9f3dd
+cmd: python3 -m pytitanic.features -o features -r data/train.csv -s data/test.csv
+wdir: ..
+deps:
+- md5: 61fdd54abdbf6a85b778e937122e1194
+  path: data/train.csv
+- md5: 029c9cd22461f6dbe8d9ab01def965c6
+  path: data/test.csv
+- md5: 9d1f38ce60956bf18228cf5e41f329c4
+  path: pytitanic/features.py
+outs:
+- md5: ef94510a6595b8e4bd118cebf631f490
+  path: features/train_features.csv
+  cache: true
+  metric: false
+  persist: false
+- md5: 0f98759172b6e5340c0b878e77822c2f
+  path: features/test_features.csv
+  cache: true
+  metric: false
+  persist: false

@@ -1,4 +1,4 @@
 ['remote "localremote"']
-url = ../titanic-remote
+url = ../../titanic-remote
 [core]
 remote = localremote

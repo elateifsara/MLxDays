@@ -25,3 +25,7 @@ This repo will contain all of the things that I will learn during my MLxDaysChal
 - I have been curious about data science workflows and development cycle so I checked this amazing article: 
 [Creating reproducible data science workflows with DVC](https://medium.com/y-data-stories/creating-reproducible-data-science-workflows-with-dvc-3bf058e9797b).
 You will find it detailed in Data Science Workflows, and it's about data version control. I only did the first part and will finish it the following day. 
+
+## Day 4
+- I have finished the last tutorial about *Creating reproducible data science workflows with DVC*. While running the tutorial I have run into several problems due to the fact that I was runing all the commands in jupyter notebook. I witched to cmd and retook the 2nd part but there where still some things that didn't run as supposed (I am talking about the updating features part).
+- I will be diving deeper into this DVC topic later on, to understand it more.
