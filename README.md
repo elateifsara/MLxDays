@@ -29,3 +29,9 @@ You will find it detailed in Data Science Workflows, and it's about data version
 ## Day 4
 - I have finished the last tutorial about *Creating reproducible data science workflows with DVC*. While running the tutorial I have run into several problems due to the fact that I was runing all the commands in jupyter notebook. I witched to cmd and retook the 2nd part but there where still some things that didn't run as supposed (I am talking about the updating features part).
 - I will be diving deeper into this DVC topic later on, to understand it more.
+
+## Day 5 & 6
+
+**Note**: I have decided that if a tutorial took me more than one day I will concatenate the days and write one review (because I like to spend only a specific time to keep the momentum going :) ).
+
+- This tutorial was amazing because it is one of the few that goes from EDA to Model Evaluation. I learned a lot of things about how to deal with features especially the categorical ones (I like the fact that he tries to encode categories logically with numbers and not just call get_dummies).
