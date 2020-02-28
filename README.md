@@ -35,3 +35,12 @@ You will find it detailed in Data Science Workflows, and it's about data version
 **Note**: I have decided that if a tutorial took me more than one day I will concatenate the days and write one review (because I like to spend only a specific time to keep the momentum going :) ).
 
 - This tutorial was amazing because it is one of the few that goes from EDA to Model Evaluation. I learned a lot of things about how to deal with features especially the categorical ones (I like the fact that he tries to encode categories logically with numbers and not just call get_dummies).
+
+## Day 7 & 8 & 9 & 10
+- For the 1st day I worked on visualization to try to understand my data to make better decisions.
+- The 2nd day I worked on cleaning and preprocessing the data to make it easier for the model to interpret.
+- The 3rd day I began working on hyperparameter tuning (it actually took me 2 days because of the internet connection going down, I had to reduce the number of parameters as well).
+- The 4th and last day (which is the day I am writing this), I submitted the first result (by leaving only 31 features) and I got 64% in ROC while testing on private data. I tried increasing the number of features to 50 it got worse and I changed the number of features to 20 and it got better.  
+**C/c**:   
+Perhaps trying other models will give a better result like : CatBoost, XGBoost and some other models.
+I am not going to be trying more because I want to explore the solution that I got the best score and learn from it.
