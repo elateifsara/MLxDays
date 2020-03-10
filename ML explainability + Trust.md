@@ -8,9 +8,9 @@ This chapter demonstrates the importance of explaining your predictions output t
 
 We have 3 key considerations to remember to explain AI systems:
 
-    1- **Help users calibrate their trust:** The user should know when to trust the system's predictions and when to apply their own judgement.
-    2- **Optimize for understanding:** In some cases it's difficult to explain to users the output of the algorithm.
-    3- **Manage influence on user decisions:**  If, when, and how the system calculates and shows confidence levels can be critical in informing the user’s decision making and calibrating their trust.
+     - Help users calibrate their trust:The user should know when to trust the system's predictions and when to apply their own judgement.
+     - Optimize for understanding: In some cases it's difficult to explain to users the output of the algorithm.
+     - Manage influence on user decisions:  If, when, and how the system calculates and shows confidence levels can be critical in informing the user’s decision making and calibrating their trust.
     
 ## Help users calibrate their trust
 Users shouldn’t implicitly trust your AI system in all circumstances, but rather calibrate their trust correctly.
@@ -20,9 +20,9 @@ Users shouldn’t implicitly trust your AI system in all circumstances, but rath
 
 Whenever possible, the AI system should explain the following aspects about data use:
 
-    - **Scope**. Show an overview of the data being collected about an individual user, and which aspects of their data are being used for what purpose.
-    - **Reach**. Explain whether the system is personalized to one user or device, or if it is using aggregated data across all users.
-    - **Removal**. Tell users whether they can remove or reset some of the data being used.
+    - Scope. Show an overview of the data being collected about an individual user, and which aspects of their data are being used for what purpose.
+    - Reach. Explain whether the system is personalized to one user or device, or if it is using aggregated data across all users.
+    - Removal. Tell users whether they can remove or reset some of the data being used.
     
 ### Tie explanations to user actions
 People learn faster when they can see a response to their actions right away, because then it’s easier to identify cause and effect. This means the perfect time to show explanations is in response to a user’s action. If the user takes an action and the AI system doesn’t respond, or responds in an unexpected way, an explanation can go a long way in building or recovering a user’s trust. On the other hand, when the system is working well, responding to users’ actions is a great time to tell the user what they can do to help the system continue to be reliable.
@@ -61,8 +61,8 @@ Think about how an explanation for each critical interaction could decrease, mai
 
 There are lots of options for providing a partial explanation, which intentionally leave out parts of the system’s function that are unknown, too complex to explain, or simply not useful. Partial explanations can be:
 
-    - **General system.** Explaining how the AI system works in general terms
-    - **Specific output.** Explaining why the AI provided a particular output at a particular time
+    - General system. Explaining how the AI system works in general terms
+    - Specific output. Explaining why the AI provided a particular output at a particular time
     
 ## Manage influence on user decisions
 Displaying model confidence can sometimes help users calibrate their trust and make better decisions, but it’s not always actionable. In this section, we’ll discuss when and how to show the confidence levels behind a model’s predictions.
@@ -70,9 +70,9 @@ Displaying model confidence can sometimes help users calibrate their trust and m
 ### Determine if you should show confidence
 Be sure to set aside lots of time to test if showing model confidence is beneficial for your users and your product or feature. You might choose not to indicate model confidence if:
 
-    - **The confidence level isn’t impactful**. If it doesn’t make an impact on user decision making, consider not showing it. Counterintuitively, showing more granular confidence can be confusing if the impact isn’t clear — what should I do when the system is 85.8% certain vs. 87% certain?
+    - The confidence level isn’t impactful. If it doesn’t make an impact on user decision making, consider not showing it. Counterintuitively, showing more granular confidence can be confusing if the impact isn’t clear — what should I do when the system is 85.8% certain vs. 87% certain?
 
-    - **Showing confidence could create mistrust**. If the confidence level could be misleading for less-savvy users, reconsider how it’s displayed, or whether to display it at all. A misleadingly high confidence, for example, may cause users to blindly accept a result.
+    - Showing confidence could create mistrust. If the confidence level could be misleading for less-savvy users, reconsider how it’s displayed, or whether to display it at all. A misleadingly high confidence, for example, may cause users to blindly accept a result.
     
 ### Decide how best to show model confidence
 If your research confirms that displaying model confidence improves decision making, the next step is choosing an appropriate visualization.
