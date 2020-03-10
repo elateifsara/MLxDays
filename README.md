@@ -1,5 +1,5 @@
 # Sharpening my Machine Learning knowledge day by day
-This repo will contain all of the things that I will learn during my MLxDaysChallenge with x starting by 30 and increasing by 30 days as I go on.
+This repo will contain all of the things that I will learn during my MLxDaysChallenge.
 
 ## Day 1
 - I began the [tutorial](https://www.analyticsvidhya.com/blog/2020/01/build-your-first-machine-learning-pipeline-using-scikit-learn/?utm_source=feedburner) about Machine Learning pipeline using BigMart Sales dataset from Analytics Vidhya.
@@ -44,3 +44,7 @@ You will find it detailed in Data Science Workflows, and it's about data version
 **C/c**:   
 Perhaps trying other models will give a better result like : CatBoost, XGBoost and some other models.
 I am not going to be trying more because I want to explore the solution that I got the best score and learn from it.
+
+## Day 11 & 12
+While preparing for my talk for IWD2020 organized by my community WTM Casablanca, I read and discovered about how to explain ML predictions to gain user's trust.  
+Check the Ml explainability + trust.md file for more information on what I learned.
