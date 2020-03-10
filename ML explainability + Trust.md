@@ -71,16 +71,16 @@ Displaying model confidence can sometimes help users calibrate their trust and m
 Be sure to set aside lots of time to test if showing model confidence is beneficial for your users and your product or feature. You might choose not to indicate model confidence if:
 
     - The confidence level isn’t impactful. If it doesn’t make an impact on user decision making, consider not showing it. Counterintuitively, showing more granular confidence can be confusing if the impact isn’t clear — what should I do when the system is 85.8% certain vs. 87% certain?
-
     - Showing confidence could create mistrust. If the confidence level could be misleading for less-savvy users, reconsider how it’s displayed, or whether to display it at all. A misleadingly high confidence, for example, may cause users to blindly accept a result.
     
 ### Decide how best to show model confidence
-If your research confirms that displaying model confidence improves decision making, the next step is choosing an appropriate visualization.
-Types of visualizations include:
-    - **Categorical:** These visualizations categorize confidence values into buckets, such as High / Medium / Low and show the category rather than the numerical value.
-    - **N-best alternatives:** Rather than providing an explicit indicator of confidence, the system can display the N-best alternative results. For example, “This photo might be of New York, Tokyo, or Los Angeles.”
-    - **Numeric:** A common form of this is a simple percentage. Numeric confidence indicators are risky because they presume your users have a good baseline understanding of probability.
-    - **Data visualizations:** There are graphic-based indications of certainty. Keep in mind, however, that some common data visualizations are best understood by expert users in specific domains.
+If your research confirms that displaying model confidence improves decision making, the next step is choosing an appropriate visualization.  
+Types of visualizations include: 
+
+    - Categorical: These visualizations categorize confidence values into buckets, such as High / Medium / Low and show the category rather than the numerical value.  
+    - N-best alternatives: Rather than providing an explicit indicator of confidence, the system can display the N-best alternative results. For example, “This photo might be of New York, Tokyo, or Los Angeles.”  
+    - Numeric: A common form of this is a simple percentage. Numeric confidence indicators are risky because they presume your users have a good baseline understanding of probability.  
+    - Data visualizations: There are graphic-based indications of certainty. Keep in mind, however, that some common data visualizations are best understood by expert users in specific domains.  
     
-**Key concept**
+**Key concept**:    
 To assess whether or not showing model confidence increases trust and makes it easier for people to make decisions, you can conduct user research with people who reflect the diversity of your audience.
